@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ONEG PIZZA — Expérience pizza napolitaine au levain pour événements à Gagny et en Île-de-France. Four à bois en extérieur, électrique professionnel en intérieur. Mariages, entreprises, privés.">
+  <meta name="keywords" content="pizza napolitain Gagny, food truck pizza, pizza four à bois, traiteur pizza mariage, pizza événementiel, pizza levain">
+  <meta name="author" content="ONEG PIZZA">
+  <meta name="robots" content="index, follow">
+  
+  <!-- OpenGraph -->
+  <meta property="og:title" content="ONEG PIZZA — L'Art du Feu. L'Âme de Naples.">
+  <meta property="og:description" content="Expérience pizza napolitaine au levain pour vos événements. Four à bois, 48h de fermentation, savoir-faire authentique.">
+  <meta property="og:type" content="business.business">
+  <meta property="og:url" content="https://onegpizza.fr">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="business:contact_data:locality" content="Gagny">
+  <meta property="business:contact_data:region" content="Île-de-France">
+  <meta property="business:contact_data:country_name" content="France">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ONEG PIZZA — L'Art du Feu. L'Âme de Naples.">
+  <meta name="twitter:description" content="Expérience pizza napolitaine au levain pour vos événements.">
+  
+  <title>ONEG PIZZA — L'Art du Feu. L'Âme de Naples. | Gagny</title>
+  
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+  
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "ONEG PIZZA",
+    "description": "Expérience pizza napolitaine au levain pour événements à Gagny et en Île-de-France",
+    "url": "https://onegpizza.fr",
+    "telephone": "+33784760145",
+    "email": "contact@onegpizza.fr",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1 Esplanade Michel Teulet",
+      "addressLocality": "Gagny",
+      "postalCode": "93220",
+      "addressRegion": "Île-de-France",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "48.8833",
+      "longitude": "2.5333"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "11:30",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Tuesday",
+        "opens": "17:00",
+        "closes": "21:00"
+      }
+    ],
+    "servesCuisine": "Pizza Napolitaine",
+    "priceRange": "€€€",
+    "sameAs": [
+      "https://www.instagram.com/onegpizza"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "200"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">ONEG PIZZA</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#philosophy" data-fr="Notre Savoir-Faire" data-en="Our Craft">Notre Savoir-Faire</a></li>
+        <li><a href="#experience" data-fr="L'Expérience" data-en="The Experience">L'Expérience</a></li>
+        <li><a href="#events" data-fr="Événements" data-en="Events">Événements</a></li>
+        <li><a href="#menu" data-fr="Menu" data-en="Menu">Menu</a></li>
+        <li><a href="#gallery" data-fr="Galerie" data-en="Gallery">Galerie</a></li>
+        <li><a href="#faq" data-fr="FAQ" data-en="FAQ">FAQ</a></li>
+        <li class="nav-cta">
+          <a href="https://wa.me/33784760145?text=Bonjour%20ONEG%20PIZZA%2C%0A%0AJe%20souhaite%20r%C3%A9server%20votre%20exp%C3%A9rience%20pizza%20pour%20un%20%C3%A9v%C3%A9nement.%0A%0A%E2%80%A2%20Date%20%3A%20%0A%E2%80%A2%20Nombre%20d'invit%C3%A9s%20%3A%20%0A%E2%80%A2%20Lieu%20%3A%20%0A%E2%80%A2%20Type%20d'%C3%A9v%C3%A9nement%20%3A%20%0A%0AMerci%20!" class="btn btn-primary" target="_blank" data-fr="Réserver" data-en="Book Now">Réserver</a>
+        </li>
+        <li class="lang-switch">
+          <button id="langToggle" aria-label="Changer de langue">
+            <span class="lang-current">FR</span>
+            <span class="lang-separator">|</span>
+            <span class="lang-alt">EN</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-fire-glow"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tagline" data-fr="Gagny, Île-de-France" data-en="Gagny, Île-de-France">Gagny, Île-de-France</p>
+      <h1 class="hero-title">
+        <span data-fr="L'Art du Feu." data-en="The Art of Fire.">L'Art du Feu.</span>
+        <span data-fr="L'Âme de Naples." data-en="The Soul of Naples.">L'Âme de Naples.</span>
+      </h1>
+      <p class="hero-subtitle" data-fr="Pizza napolitaine au levain pour vos événements. Four à bois en extérieur, électrique professionnel en intérieur." data-en="Neapolitan sourdough pizza for your events. Wood-fired outdoors, professional electric indoors.">Pizza napolitaine au levain pour vos événements. Four à bois en extérieur, électrique professionnel en intérieur.</p>
+      <div class="hero-ctas">
+        <a href="#quote" class="btn btn-primary btn-large" data-fr="Réserver un événement" data-en="Book an Event">Réserver un événement</a>
+        <a href="https://wa.me/33784760145?text=Bonjour%20ONEG%20PIZZA%2C%0A%0AJe%20souhaite%20recevoir%20votre%20menu%20et%20conna%C3%AEtre%20votre%20emplacement%20hebdomadaire%20%C3%A0%20Gagny.%0A%0AMerci%20!" class="btn btn-secondary btn-large" target="_blank" data-fr="Recevoir le menu" data-en="Get the Menu">Recevoir le menu</a>
+      </div>
+      <div class="hero-trust">
+        <span class="trust-item"><strong>200+</strong> <span data-fr="événements" data-en="events">événements</span></span>
+        <span class="trust-separator">•</span>
+        <span class="trust-item" data-fr="48h de fermentation" data-en="48h fermentation">48h de fermentation</span>
+        <span class="trust-separator">•</span>
+        <span class="trust-item" data-fr="Pizzaiolo certifié" data-en="Certified pizzaiolo">Pizzaiolo certifié</span>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span data-fr="Découvrir" data-en="Discover">Découvrir</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Philosophy Section -->
+  <section class="section philosophy" id="philosophy">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-fr="Notre Différence" data-en="Our Difference">Notre Différence</span>
+        <h2 data-fr="Ce qui fait l'unicité ONEG" data-en="What Makes ONEG Unique">Ce qui fait l'unicité ONEG</h2>
+      </div>
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 12V24L32 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 data-fr="48h de Fermentation" data-en="48h Fermentation">48h de Fermentation</h3>
+          <p data-fr="Notre pâte au levain naturel repose 48 heures pour développer des arômes complexes et une digestibilité exceptionnelle." data-en="Our natural sourdough dough rests 48 hours to develop complex flavors and exceptional digestibility.">Notre pâte au levain naturel repose 48 heures pour développer des arômes complexes et une digestibilité exceptionnelle.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 4L28 18H42L30 26L34 40L24 32L14 40L18 26L6 18H20L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 data-fr="Technique Napolitaine" data-en="Neapolitan Technique">Technique Napolitaine</h3>
+          <p data-fr="Façonnage à la main, cuisson à haute température, ingrédients DOP sélectionnés. L'authentique savoir-faire napolitain." data-en="Hand-stretched, high-temperature cooking, selected DOP ingredients. Authentic Neapolitan craftsmanship.">Façonnage à la main, cuisson à haute température, ingrédients DOP sélectionnés. L'authentique savoir-faire napolitain.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 8C24 8 14 16 14 26C14 31.5 18.5 36 24 36C29.5 36 34 31.5 34 26C34 16 24 8 24 8Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 20V28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 data-fr="Spectacle Vivant" data-en="Live Performance">Spectacle Vivant</h3>
+          <p data-fr="Le four devient scène, le pizzaiolo artiste. Vos invités assistent à la naissance de chaque pizza, dans une ambiance chaleureuse et conviviale." data-en="The oven becomes a stage, the pizzaiolo an artist. Your guests witness the birth of each pizza in a warm, convivial atmosphere.">Le four devient scène, le pizzaiolo artiste. Vos invités assistent à la naissance de chaque pizza, dans une ambiance chaleureuse et conviviale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-fr="L'Expérience" data-en="The Experience">L'Expérience</span>
+        <h2 data-fr="Deux ambiances, une même excellence" data-en="Two Settings, One Excellence">Deux ambiances, une même excellence</h2>
+      </div>
+      <div class="experience-grid">
+        <div class="experience-card">
+          <div class="experience-image">
+            <img src="assets/outdoor-setup.jpg" alt="Four à bois en extérieur pour événement" loading="lazy">
+          </div>
+          <div class="experience-content">
+            <span class="experience-badge" data-fr="Extérieur" data-en="Outdoor">Extérieur</span>
+            <h3 data-fr="L'Élément Feu" data-en="The Fire Element">L'Élément Feu</h3>
+            <p data-fr="Notre four à bois s'installe dans votre jardin, sur votre terrasse ou au cœur de votre domaine. Les flammes dansent, la chaleur se répand, l'atmosphère devient magique." data-en="Our wood-fired oven sets up in your garden, terrace, or estate. Flames dance, warmth spreads, the atmosphere becomes magical.">Notre four à bois s'installe dans votre jardin, sur votre terrasse ou au cœur de votre domaine. Les flammes dansent, la chaleur se répand, l'atmosphère devient magique.</p>
+            <ul class="experience-list">
+              <li data-fr="Jardins, terrasses, vignobles" data-en="Gardens, terraces, vineyards">Jardins, terrasses, vignobles</li>
+              <li data-fr="Mariages, fêtes estivales, festivals" data-en="Weddings, summer parties, festivals">Mariages, fêtes estivales, festivals</li>
+              <li data-fr="Ambiance chaleureuse et authentique" data-en="Warm and authentic atmosphere">Ambiance chaleureuse et authentique</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-card">
+          <div class="experience-image">
+            <img src="assets/indoor-setup.jpg" alt="Installation électrique professionnelle en intérieur" loading="lazy">
+          </div>
+          <div class="experience-content">
+            <span class="experience-badge badge-alt" data-fr="Intérieur" data-en="Indoor">Intérieur</span>
+            <h3 data-fr="La Précision Raffinée" data-en="Refined Precision">La Précision Raffinée</h3>
+            <p data-fr="Nos fours électriques professionnels s'intègrent dans vos salons de réception, lofts ou espaces corporate. Même qualité, cadre élégant." data-en="Our professional electric ovens integrate into your reception halls, lofts, or corporate spaces. Same quality, elegant setting.">Nos fours électriques professionnels s'intègrent dans vos salons de réception, lofts ou espaces corporate. Même qualité, cadre élégant.</p>
+            <ul class="experience-list">
+              <li data-fr="Salles de réception, lofts, bureaux" data-en="Reception halls, lofts, offices">Salles de réception, lofts, bureaux</li>
+              <li data-fr="Événements corporate, soirées hivernales" data-en="Corporate events, winter parties">Événements corporate, soirées hivernales</li>
+              <li data-fr="Excellence technique sans contrainte" data-en="Technical excellence without constraints">Excellence technique sans contrainte</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="experience-note">
+        <p data-fr="Les deux configurations incluent : pizzaiolo en live, ingrédients frais, service attentif, nettoyage complet." data-en="Both configurations include: live pizzaiolo, fresh ingredients, attentive service, complete cleanup.">Les deux configurations incluent : pizzaiolo en live, ingrédients frais, service attentif, nettoyage complet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section class="section events" id="events">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-fr="Nos Formules" data-en="Our Packages">Nos Formules</span>
+        <h2 data-fr="Des événements sur mesure" data-en="Tailored Events">Des événements sur mesure</h2>
+        <p class="section-subtitle" data-fr="De l'intime à la grande réception, nous adaptons notre prestation à vos besoins." data-en="From intimate gatherings to grand receptions, we adapt our service to your needs.">De l'intime à la grande réception, nous adaptons notre prestation à vos besoins.</p>
+      </div>
+      <div class="packages">
+        <div class="package">
+          <div class="package-header">
+            <span class="package-name" data-fr="Intime" data-en="Intimate">Intime</span>
+            <span class="package-guests">30–50 <span data-fr="invités" data-en="guests">invités</span></span>
+          </div>
+          <div class="package-features">
+            <p data-fr="Parfait pour les anniversaires, réunions familiales et dîners entre amis." data-en="Perfect for birthdays, family gatherings, and dinners with friends.">Parfait pour les anniversaires, réunions familiales et dîners entre amis.</p>
+            <ul>
+              <li data-fr="Menu personnalisé" data-en="Personalized menu">Menu personnalisé</li>
+              <li data-fr="2–3 heures de service" data-en="2–3 hours of service">2–3 heures de service</li>
+              <li data-fr="Installation complète" data-en="Complete setup">Installation complète</li>
+            </ul>
+          </div>
+          <a href="#quote" class="btn btn-outline" data-fr="Demander un devis" data-en="Request a quote">Demander un devis</a>
+        </div>
+        <div class="package package-popular">
+          <div class="package-badge" data-fr="Le plus choisi" data-en="Most popular">Le plus choisi</div>
+          <div class="package-header">
+            <span class="package-name" data-fr="Célébration" data-en="Celebration">Célébration</span>
+            <span class="package-guests">50–100 <span data-fr="invités" data-en="guests">invités</span></span>
+          </div>
+          <div class="package-features">
+            <p data-fr="Notre formule phare pour mariages, soirées entreprise et événements importants." data-en="Our flagship package for weddings, corporate events, and important occasions.">Notre formule phare pour mariages, soirées entreprise et événements importants.</p>
+            <ul>
+              <li data-fr="Menu varié et gourmand" data-en="Varied and gourmet menu">Menu varié et gourmand</li>
+              <li data-fr="3–4 heures de service" data-en="3–4 hours of service">3–4 heures de service</li>
+              <li data-fr="Personnel de service dédié" data-en="Dedicated service staff">Personnel de service dédié</li>
+            </ul>
+          </div>
+          <a href="#quote" class="btn btn-primary" data-fr="Demander un devis" data-en="Request a quote">Demander un devis</a>
+        </div>
+        <div class="package">
+          <div class="package-header">
+            <span class="package-name" data-fr="Grande" data-en="Grande">Grande</span>
+            <span class="package-guests">100–200+ <span data-fr="invités" data-en="guests">invités</span></span>
+          </div>
+          <div class="package-features">
+            <p data-fr="Pour les grands événements nécessitant une organisation sans faille." data-en="For large events requiring flawless organization.">Pour les grands événements nécessitant une organisation sans faille.</p>
+            <ul>
+              <li data-fr="Solution multi-fours si nécessaire" data-en="Multi-oven solution if needed">Solution multi-fours si nécessaire</li>
+              <li data-fr="Service sur mesure" data-en="Tailored service">Service sur mesure</li>
+              <li data-fr="Accompagnement événementiel" data-en="Event support">Accompagnement événementiel</li>
+            </ul>
+          </div>
+          <a href="#quote" class="btn btn-outline" data-fr="Demander un devis" data-en="Request a quote">Demander un devis</a>
+        </div>
+      </div>
+      <div class="pricing-note">
+        <p><span data-fr="Tarifs événements" data-en="Event pricing">Tarifs événements</span> : <strong data-fr="à partir de 25€/personne" data-en="from €25/person">à partir de 25€/personne</strong> <span data-fr="(selon formule, nombre d'invités et logistique)" data-en="(depending on package, guest count, and logistics)">(selon formule, nombre d'invités et logistique)</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Form Section -->
+  <section class="section quote" id="quote">
+    <div class="container">
+      <div class="quote-container">
+        <div class="quote-content">
+          <span class="section-label" data-fr="Devis Express" data-en="Quick Quote">Devis Express</span>
+          <h2 data-fr="Prêt à créer un moment inoubliable ?" data-en="Ready to create an unforgettable moment?">Prêt à créer un moment inoubliable ?</h2>
+          <p data-fr="Remplissez ce formulaire et recevez une réponse sous 24h." data-en="Fill out this form and receive a response within 24 hours.">Remplissez ce formulaire et recevez une réponse sous 24h.</p>
+          <div class="quote-urgency">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <span data-fr="Dates limitées pour 2025 — réservez tôt" data-en="Limited dates for 2025 — book early">Dates limitées pour 2025 — réservez tôt</span>
+          </div>
+        </div>
+        <form class="quote-form" id="quoteForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="eventDate" data-fr="Date de l'événement" data-en="Event date">Date de l'événement</label>
+              <input type="date" id="eventDate" name="date" required>
+            </div>
+            <div class="form-group">
+              <label for="eventCity" data-fr="Ville / Lieu" data-en="City / Location">Ville / Lieu</label>
+              <input type="text" id="eventCity" name="city" placeholder="Gagny, Paris..." required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="guestCount" data-fr="Nombre d'invités" data-en="Number of guests">Nombre d'invités</label>
+              <select id="guestCount" name="guests" required>
+                <option value="" data-fr="Sélectionner" data-en="Select">Sélectionner</option>
+                <option value="30-50">30–50</option>
+                <option value="50-100">50–100</option>
+                <option value="100-150">100–150</option>
+                <option value="150-200">150–200</option>
+                <option value="200+" data-fr="200 et plus" data-en="200+">200 et plus</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="eventType" data-fr="Type d'événement" data-en="Event type">Type d'événement</label>
+              <select id="eventType" name="type" required>
+                <option value="" data-fr="Sélectionner" data-en="Select">Sélectionner</option>
+                <option value="Mariage" data-fr="Mariage" data-en="Wedding">Mariage</option>
+                <option value="Entreprise" data-fr="Entreprise / Corporate" data-en="Corporate">Entreprise / Corporate</option>
+                <option value="Anniversaire" data-fr="Anniversaire" data-en="Birthday">Anniversaire</option>
+                <option value="Privé" data-fr="Soirée privée" data-en="Private party">Soirée privée</option>
+                <option value="Autre" data-fr="Autre" data-en="Other">Autre</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="outdoorSpace" data-fr="Espace extérieur disponible ?" data-en="Outdoor space available?">Espace extérieur disponible ?</label>
+              <select id="outdoorSpace" name="outdoor">
+                <option value="" data-fr="Sélectionner" data-en="Select">Sélectionner</option>
+                <option value="Oui" data-fr="Oui" data-en="Yes">Oui</option>
+                <option value="Non" data-fr="Non" data-en="No">Non</option>
+                <option value="À définir" data-fr="À définir" data-en="To be determined">À définir</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="venueType" data-fr="Type de lieu" data-en="Venue type">Type de lieu</label>
+              <select id="venueType" name="venue">
+                <option value="" data-fr="Sélectionner" data-en="Select">Sélectionner</option>
+                <option value="Particulier" data-fr="Particulier (maison/jardin)" data-en="Private (home/garden)">Particulier (maison/jardin)</option>
+                <option value="Entreprise" data-fr="Entreprise / Bureau" data-en="Company / Office">Entreprise / Bureau</option>
+                <option value="Salle" data-fr="Salle de réception" data-en="Reception hall">Salle de réception</option>
+                <option value="Domaine" data-fr="Domaine / Château" data-en="Estate / Chateau">Domaine / Château</option>
+                <option value="Autre" data-fr="Autre" data-en="Other">Autre</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group form-full">
+            <label for="eventNotes" data-fr="Notes complémentaires" data-en="Additional notes">Notes complémentaires</label>
+            <textarea id="eventNotes" name="notes" rows="3" placeholder="Horaires souhaités, questions particulières..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large btn-whatsapp">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <span data-fr="Envoyer sur WhatsApp" data-en="Send on WhatsApp">Envoyer sur WhatsApp</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-fr="Notre Carte" data-en="Our Menu">Notre Carte</span>
+        <h2 data-fr="Une sélection pensée avec soin" data-en="A Carefully Curated Selection">Une sélection pensée avec soin</h2>
+        <p class="section-subtitle" data-fr="Pizzas au levain, 48h de fermentation, cuisson à haute température." data-en="Sourdough pizzas, 48h fermentation, high-temperature cooking.">Pizzas au levain, 48h de fermentation, cuisson à haute température.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-category">
+          <h3 data-fr="Les Classiques" data-en="The Classics">Les Classiques</h3>
+          <div class="menu-items">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Margherita DOP</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Tomates San Marzano, mozzarella di bufala DOP, basilic frais, huile d'olive extra-vierge" data-en="San Marzano tomatoes, DOP buffalo mozzarella, fresh basil, extra virgin olive oil">Tomates San Marzano, mozzarella di bufala DOP, basilic frais, huile d'olive extra-vierge</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Marinara</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Tomates San Marzano, ail, origan, huile d'olive extra-vierge" data-en="San Marzano tomatoes, garlic, oregano, extra virgin olive oil">Tomates San Marzano, ail, origan, huile d'olive extra-vierge</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Quattro Formaggi</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Mozzarella, gorgonzola, parmigiano reggiano, ricotta" data-en="Mozzarella, gorgonzola, parmigiano reggiano, ricotta">Mozzarella, gorgonzola, parmigiano reggiano, ricotta</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu-category">
+          <h3 data-fr="Nos Signatures" data-en="Our Signatures">Nos Signatures</h3>
+          <div class="menu-items">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Truffe & Burrata</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Crème de truffe, mozzarella, burrata fraîche, copeaux de parmigiano, roquette" data-en="Truffle cream, mozzarella, fresh burrata, parmigiano shavings, arugula">Crème de truffe, mozzarella, burrata fraîche, copeaux de parmigiano, roquette</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Spicy Nduja</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Tomates San Marzano, mozzarella, nduja épicée, miel, roquette" data-en="San Marzano tomatoes, mozzarella, spicy nduja, honey, arugula">Tomates San Marzano, mozzarella, nduja épicée, miel, roquette</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Prosciutto & Figues</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Mozzarella, prosciutto di Parma, confit de figues, ricotta, basilic" data-en="Mozzarella, prosciutto di Parma, fig confit, ricotta, basil">Mozzarella, prosciutto di Parma, confit de figues, ricotta, basilic</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu-category">
+          <h3 data-fr="Saisonniers" data-en="Seasonal">Saisonniers</h3>
+          <div class="menu-items">
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name" data-fr="L'Automnale" data-en="The Autumn">L'Automnale</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Mozzarella, potimarron rôti, pancetta, noisettes torréfiées, ricotta" data-en="Mozzarella, roasted pumpkin, pancetta, toasted hazelnuts, ricotta">Mozzarella, potimarron rôti, pancetta, noisettes torréfiées, ricotta</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name" data-fr="L'Hivernale" data-en="The Winter">L'Hivernale</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Mozzarella, champignons sautés, crème, thym, huile de truffe" data-en="Mozzarella, sautéed mushrooms, cream, thyme, truffle oil">Mozzarella, champignons sautés, crème, thym, huile de truffe</p>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name" data-fr="La Printanière" data-en="The Spring">La Printanière</span>
+              </div>
+              <p class="menu-item-desc" data-fr="Mozzarella, asperges vertes, petits pois, menthe, citron" data-en="Mozzarella, green asparagus, peas, mint, lemon">Mozzarella, asperges vertes, petits pois, menthe, citron</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-cta">
+        <a href="https://wa.me/33784760145?text=Bonjour%20ONEG%20PIZZA%2C%0A%0AJe%20souhaite%20recevoir%20votre%20menu%20complet%20et%20conna%C3%AEtre%20votre%20emplacement%20hebdomadaire%20%C3%A0%20Gagny.%0A%0AMerci%20!" class="btn btn-secondary" target="_blank" data-fr="Recevoir le menu complet" data-en="Get the full menu">Recevoir le menu complet</a>
+        <p class="menu-note" data-fr="Menu hebdomadaire disponible sur WhatsApp — emplacement fixe : 1 Esplanade Michel Teulet, 93220 Gagny" data-en="Weekly menu available on WhatsApp — fixed location: 1 Esplanade Michel Teulet, 93220 Gagny">Menu hebdomadaire disponible sur WhatsApp — emplacement fixe : 1 Esplanade Michel Teulet, 93220 Gagny</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-fr="Témoignages" data-en="Testimonials">Témoignages</span>
+        <h2 data-fr="Ce que nos clients disent" data-en="What Our Clients Say">Ce que nos clients disent</h2>
+      </div>
+      <div class="testimonials-slider" id="testimonialsSlider">
+        <div class="testimonials-track">
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <svg class="quote-icon" viewBox="0 0 48 48" fill="currentColor">
+                <path d="M14 24c-3.3 0-6-2.7-6-6s2.7-6 6-6c.6 0 1.2.1 1.8.2C14.9 8.3 11.1 5 6.5 5H6v6h.5c5.2 0 9.5 4.3 9.5 9.5V36h14V24H14zm26 0c-3.3 0-6-2.7-6-6s2.7-6 6-6c.6 0 1.2.1 1.8.2C40.9 8.3 37.1 5 32.5 5H32v6h.5c5.2 0 9.5 4.3 9.5 9.5V36h14V24H40z"/>
+              </svg>
+              <p class="testimonial-text" data-fr="Le four à bois a été le clou de notre mariage. Nos invités en parlent encore six mois plus tard. Une expérience unique, une qualité exceptionnelle." data-en="The wood-fired oven was the highlight of our wedding. Our guests are still talking about it six months later. A unique experience, exceptional quality.">Le four à bois a été le clou de notre mariage. Nos invités en parlent encore six mois plus tard. Une expérience unique, une qualité exceptionnelle.</p>
+              <div class="testimonial-author">
+                <span class="author-name">Sophie & Marc</span>
+                <span class="author-event" data-fr="Mariage, Château de Vaux" data-en="Wedding, Château de Vaux">Mariage, Château de Vaux</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <svg class="quote-icon" viewBox="0 0 48 48" fill="currentColor">
+                <path d="M14 24c-3.3 0-6-2.7-6-6s2.7-6 6-6c.6 0 1.2.1 1.8.2C14.9 8.3 11.1 5 6.5 5H6v6h.5c5.2 0 9.5 4.3 9.5 9.5V36h14V24H14zm26 0c-3.3 0-6-2.7-6-6s2.7-6 6-6c.6 0 1.2.1 1.8.2C40.9 8.3 37.1 5 32.5 5H32v6h.5c5.2 0 9.5 4.3 9.5 9.5V36h14V24H40z"/>
+              </svg>
+              <p class="testimonial-text" data-fr="Nous faisons appel à ONEG pour tous nos événements d'entreprise. Professionalisme, ponctualité, et surtout des pizzas incroyables. Nos collaborateurs adorent." data-en="We call on ONEG for all our corporate events. Professionalism, punctuality, and above all incredible pizzas. Our employees love it.">Nous faisons appel à ONEG pour tous nos événements d'entreprise. Professionalisme, ponctualité, et surtout des pizzas incroyables. Nos collaborateurs adorent.</p>
+              <div class="testimonial-author">
+                <span class="author-name">Claire Dubois</span>
+                <span class="author-event" data-fr="Directrice RH, TechCorp Paris" data-en="HR Director, TechCorp Paris">Directrice RH, TechCorp Paris</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <svg class="quote-icon" viewBox="0 0 48 48" fill="currentColor">
+                <path d="M14 24c-3.3 0-6-2.7-6-6s2.7-6 6-6c.6 0 1.2.1 1.8.2C14.9 8.3 11.1 5 6.5 5H6v6h.5c5.2 0 9.5 4.3 9.5 9.5V36h14V24H14zm26 0c-3.3 0-6-2.7-6-6s2.7-6 6-6c.6 0 1.2.1 1.8.2C40.9 8.3 37.1 5 32.5 5H32v6h.5c5.2 0 9.5 4.3 9.5 9.5V36h14V24H40z"/>
+              </svg>
+              <p class="testimonial-text" data-fr="Un anniversaire inoubliable. Le spectacle du pizzaiolo, l'odeur du feu de bois, des pizzas délicieuses. Tout était parfait." data-en="An unforgettable birthday. The pizzaiolo's show, the smell of wood fire, delicious pizzas. Everything was perfect.">Un anniversaire inoubliable. Le spectacle du pizzaiolo, l'odeur du feu de bois, des pizzas délicieuses. Tout était parfait.</p>
+              <div class="testimonial-author">
+                <span class="author-name">Thomas L.</span>
+                <span class="author-event" data-fr="Anniversaire 40 ans, Gagny" data-en="40th Birthday, Gagny">Anniversaire 40 ans, Gagny</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-nav">
+          <button class="testimonial-prev" aria-label="Témoignage précédent">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 18l-6-6 6-6"/>
+            </svg>
+          </button>
+          <div class="testimonials-dots"></div>
+          <button class="testimonial-next" aria-label="Témoignage suivant">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-fr="Galerie" data-en="Gallery">Galerie</span>
+        <h2 data-fr="L'expérience ONEG en images" data-en="The ONEG Experience in Images">L'expérience ONEG en images</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-large">
+          <img src="assets/gallery-fire-1.jpg" alt="Four à bois en pleine flamme" loading="lazy">
+          <div class="gallery-overlay">
+            <span data-fr="Le Feu" data-en="The Fire">Le Feu</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery-dough-1.jpg" alt="Façonnage de la pâte à la main" loading="lazy">
+          <div class="gallery-overlay">
+            <span data-fr="Le Craft" data-en="The Craft">Le Craft</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery-event-1.jpg" alt="Événement mariage avec four à bois" loading="lazy">
+          <div class="gallery-overlay">
+            <span data-fr="Les Événements" data-en="The Events">Les Événements</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery-pizza-1.jpg" alt="Pizza Margherita fraîchement sortie du four" loading="lazy">
+          <div class="gallery-overlay">
+            <span data-fr="Le Résultat" data-en="The Result">Le Résultat</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item-wide">
+          <img src="assets/gallery-event-2.jpg" alt="Ambiance soirée pizza en extérieur" loading="lazy">
+          <div class="gallery-overlay">
+            <span data-fr="L'Ambiance" data-en="The Atmosphere">L'Ambiance</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/gallery-ingredients.jpg" alt="Ingrédients frais et mozzarella" loading="lazy">
+          <div class="gallery-overlay">
+            <span data-fr="Les Ingrédients" data-en="The Ingredients">Les Ingrédients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Fermer">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <button class="lightbox-prev" aria-label="Image précédente">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M15 18l-6-6 6-6"/>
+      </svg>
+    </button>
+    <img src="" alt="" class="lightbox-img">
+    <button class="lightbox-next" aria-label="Image suivante">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M9 18l6-6-6-6"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- FAQ Section -->
+  <section class="section faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" data-fr="FAQ" data-en="FAQ">FAQ</span>
+        <h2 data-fr="Questions fréquentes" data-en="Frequently Asked Questions">Questions fréquentes</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-fr="Combien de temps à l'avance dois-je réserver ?" data-en="How far in advance should I book?">Combien de temps à l'avance dois-je réserver ?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-fr="La haute saison (mai à septembre) se remplit 3 à 6 mois à l'avance. Nous vous recommandons de réserver le plus tôt possible pour sécuriser votre date. Pour les événements en basse saison, 4 à 8 semaines suffisent généralement." data-en="High season (May to September) fills up 3 to 6 months in advance. We recommend booking as early as possible to secure your date. For low season events, 4 to 8 weeks are usually sufficient.">La haute saison (mai à septembre) se remplit 3 à 6 mois à l'avance. Nous vous recommandons de réserver le plus tôt possible pour sécuriser votre date. Pour les événements en basse saison, 4 à 8 semaines suffisent généralement.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-fr="Que se passe-t-il s'il pleut ? (événements extérieurs)" data-en="What if it rains? (outdoor events)">Que se passe-t-il s'il pleut ? (événements extérieurs)</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-fr="Nous proposons des solutions d'abri pour le four et l'espace de préparation. Si la météo ne permet vraiment pas une installation extérieure, nous pouvons basculer sur notre configuration électrique professionnelle en intérieur, sous réserve d'espace disponible." data-en="We offer shelter solutions for the oven and prep area. If weather truly prevents outdoor setup, we can switch to our professional electric indoor configuration, subject to available space.">Nous proposons des solutions d'abri pour le four et l'espace de préparation. Si la météo ne permet vraiment pas une installation extérieure, nous pouvons basculer sur notre configuration électrique professionnelle en intérieur, sous réserve d'espace disponible.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-fr="Gérez-vous les régimes alimentaires spéciaux ?" data-en="Do you accommodate special dietary requirements?">Gérez-vous les régimes alimentaires spéciaux ?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-fr="Absolument. Nous proposons des options sans gluten, végétaliennes et adaptons nos pizzas aux allergies alimentaires (prévenez-nous à l'avance). Notre pâte au levain est naturellement plus digeste que les pâtes classiques." data-en="Absolutely. We offer gluten-free and vegan options, and adapt our pizzas for food allergies (please inform us in advance). Our sourdough dough is naturally more digestible than classic dough.">Absolument. Nous proposons des options sans gluten, végétaliennes et adaptons nos pizzas aux allergies alimentaires (prévenez-nous à l'avance). Notre pâte au levain est naturellement plus digeste que les pâtes classiques.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-fr="Qu'est-ce qui est inclus dans le prix ?" data-en="What's included in the price?">Qu'est-ce qui est inclus dans le prix ?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-fr="Tous nos forfaits incluent : l'installation complète du four et du matériel, tous les ingrédients frais, la présence d'un pizzaiolo professionnel, le service pendant 3 à 4 heures selon la formule, et le nettoyage complet du site. Aucun frais caché." data-en="All our packages include: complete setup of oven and equipment, all fresh ingredients, presence of a professional pizzaiolo, service for 3 to 4 hours depending on package, and complete site cleanup. No hidden fees.">Tous nos forfaits incluent : l'installation complète du four et du matériel, tous les ingrédients frais, la présence d'un pizzaiolo professionnel, le service pendant 3 à 4 heures selon la formule, et le nettoyage complet du site. Aucun frais caché.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-fr="Quelles zones couvrez-vous ?" data-en="What areas do you serve?">Quelles zones couvrez-vous ?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-fr="Basés à Gagny (93220), nous desservons toute l'Île-de-France et au-delà. Les frais de déplacement sont inclus dans un rayon de 50km. Au-delà, un supplément peut s'appliquer selon la distance." data-en="Based in Gagny (93220), we serve all of Île-de-France and beyond. Travel fees are included within a 50km radius. Beyond that, a supplement may apply depending on distance.">Basés à Gagny (93220), nous desservons toute l'Île-de-France et au-delà. Les frais de déplacement sont inclus dans un rayon de 50km. Au-delà, un supplément peut s'appliquer selon la distance.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-fr="Où et quand puis-je vous trouver en semaine ?" data-en="Where and when can I find you during the week?">Où et quand puis-je vous trouver en semaine ?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p data-fr="Nous avons un emplacement fixe à Gagny : 1 Esplanade Michel Teulet, 93220 Gagny. Horaires : dimanche toute la journée, mardi après-midi et soir. Le menu hebdomadaire est disponible sur WhatsApp." data-en="We have a fixed location in Gagny: 1 Esplanade Michel Teulet, 93220 Gagny. Hours: Sunday all day, Tuesday afternoon and evening. The weekly menu is available on WhatsApp.">Nous avons un emplacement fixe à Gagny : 1 Esplanade Michel Teulet, 93220 Gagny. Horaires : dimanche toute la journée, mardi après-midi et soir. Le menu hebdomadaire est disponible sur WhatsApp.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section -->
+  <section class="section final-cta" id="final-cta">
+    <div class="container">
+      <div class="final-cta-content">
+        <h2 data-fr="Prêt à créer un moment inoubliable ?" data-en="Ready to create an unforgettable moment?">Prêt à créer un moment inoubliable ?</h2>
+        <p data-fr="Discutons de votre événement. Réponse sous 24h." data-en="Let's discuss your event. Response within 24 hours.">Discutons de votre événement. Réponse sous 24h.</p>
+        <div class="final-cta-buttons">
+          <a href="https://wa.me/33784760145?text=Bonjour%20ONEG%20PIZZA%2C%0A%0AJe%20souhaite%20r%C3%A9server%20votre%20exp%C3%A9rience%20pizza%20pour%20un%20%C3%A9v%C3%A9nement.%0A%0AMerci%20!" class="btn btn-primary btn-large" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <span data-fr="Réserver sur WhatsApp" data-en="Book on WhatsApp">Réserver sur WhatsApp</span>
+          </a>
+          <a href="tel:+33784760145" class="btn btn-secondary btn-large">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            <span data-fr="Appeler" data-en="Call">Appeler</span>
+          </a>
+        </div>
+        <p class="final-cta-note" data-fr="Ou écrivez-nous : contact@onegpizza.fr" data-en="Or email us: contact@onegpizza.fr">Ou écrivez-nous : contact@onegpizza.fr</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-logo">ONEG PIZZA</span>
+          <p class="footer-tagline" data-fr="L'Art du Feu. L'Âme de Naples." data-en="The Art of Fire. The Soul of Naples.">L'Art du Feu. L'Âme de Naples.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/onegpizza" target="_blank" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/33784760145" target="_blank" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4 data-fr="Navigation" data-en="Navigation">Navigation</h4>
+          <ul>
+            <li><a href="#philosophy" data-fr="Notre Savoir-Faire" data-en="Our Craft">Notre Savoir-Faire</a></li>
+            <li><a href="#experience" data-fr="L'Expérience" data-en="The Experience">L'Expérience</a></li>
+            <li><a href="#events" data-fr="Événements" data-en="Events">Événements</a></li>
+            <li><a href="#menu" data-fr="Menu" data-en="Menu">Menu</a></li>
+            <li><a href="#gallery" data-fr="Galerie" data-en="Gallery">Galerie</a></li>
+            <li><a href="#faq" data-fr="FAQ" data-en="FAQ">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4 data-fr="Contact" data-en="Contact">Contact</h4>
+          <p>
+            <span data-fr="Emplacement hebdomadaire :" data-en="Weekly location:">Emplacement hebdomadaire :</span><br>
+            1 Esplanade Michel Teulet<br>
+            93220 Gagny, France
+          </p>
+          <p>
+            <a href="tel:+33784760145">+33 7 84 76 01 45</a><br>
+            <a href="mailto:contact@onegpizza.fr">contact@onegpizza.fr</a>
+          </p>
+        </div>
+        <div class="footer-hours">
+          <h4 data-fr="Horaires" data-en="Hours">Horaires</h4>
+          <p>
+            <span data-fr="Dimanche" data-en="Sunday">Dimanche</span> : 11h30–21h00<br>
+            <span data-fr="Mardi" data-en="Tuesday">Mardi</span> : 17h00–21h00
+          </p>
+          <p class="hours-note" data-fr="(Menu hebdomadaire sur WhatsApp)" data-en="(Weekly menu on WhatsApp)">(Menu hebdomadaire sur WhatsApp)</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ONEG PIZZA. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p>
+        <p class="footer-legal">
+          <a href="#" data-fr="Mentions légales" data-en="Legal Notice">Mentions légales</a>
+          <span>•</span>
+          <a href="#" data-fr="Politique de confidentialité" data-en="Privacy Policy">Politique de confidentialité</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky CTA -->
+  <div class="mobile-sticky-cta" id="mobileStickyCta">
+    <a href="https://wa.me/33784760145?text=Bonjour%20ONEG%20PIZZA%2C%0A%0AJe%20souhaite%20r%C3%A9server%20votre%20exp%C3%A9rience%20pizza%20pour%20un%20%C3%A9v%C3%A9nement.%0A%0AMerci%20!" class="btn btn-primary" target="_blank" data-fr="Réserver un événement" data-en="Book an Event">Réserver un événement</a>
+    <a href="https://wa.me/33784760145?text=Bonjour%20ONEG%20PIZZA%2C%0A%0AJe%20souhaite%20recevoir%20votre%20menu%20et%20conna%C3%AEtre%20votre%20emplacement%20hebdomadaire%20%C3%A0%20Gagny.%0A%0AMerci%20!" class="btn btn-whatsapp" target="_blank" data-fr="Menu WhatsApp" data-en="WhatsApp Menu">Menu WhatsApp</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
